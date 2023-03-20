@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+}
+/* header */
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .header_left {
+    display: flex;
+    align-items: center;
+}
+.header .header_left img {
+    width: 150px;
+    height: 50px;
+    margin-left: 50px;
+}
+.header_left_menu {
+    width: 800px;
+    height: 70px;
+}
+.header_left_menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    margin-top: 25px;
+    padding-left: 30px;
+    font-size: 17px;
+}
+.header_left_menu a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.header_right {
+    margin-right: 50px;
+}
+.header_right img {
+    margin-left: 15px;
+    width: 40px;
+    height: 40px;
+}
+/* Center */
+.center_title {
+    width: 100%;
+    height: 170px;
+    text-align: center;
+}
+.center_title h1 {
+    margin-top: 70px;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.center_title img {
+    width: 180px;
+    height: 110px;
+}
+.center_imgDog {
+    text-align: center;
+}
+.center_imgDog img{
+    width: 90%;
+    height: 645px;
+}
+/* center_menu */
+.center_menu {
+    display: flex;
+    width: 90%;
+    height: 340px;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 0 50px;
+}
+.center_menu_Content .Content_img {
+    border: 1px solid green;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    justify-content: center;
+    margin-left: 175px;
+    margin-top: 20px;
+}
+.center_menu_Content .Content_img img {
+    padding-top: 10px;
+}
+.center_menu_Content h4 {
+    font-size: 30px;
+    margin: 25px 0 35px;
+}
+.center_menu_Content {
+    text-align: center;
+}
+.center_menu_Content .Content_p {
+    width: 400px;
+    height: 200px;
+    line-height: 25px;
+    font-size: 20px;
+    font-family: inherit;
+}
