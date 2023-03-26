@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+}
+/* header */
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .header_left {
+    display: flex;
+    align-items: center;
+}
+.header .header_left img {
+    width: 150px;
+    height: 50px;
+    margin-left: 50px;
+}
+.header_left_menu {
+    width: 800px;
+    height: 70px;
+}
+.header_left_menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    margin-top: 25px;
+    padding-left: 30px;
+    font-size: 17px;
+}
+.header_left_menu a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.header_right {
+    margin-right: 50px;
+}
+.header_right img {
+    margin-left: 15px;
+    width: 40px;
+    height: 40px;
+}
+/* center */
+/* center_menu */
+.center_menu {
+    display: flex;
+    margin: 55px 135px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.center_menu_left a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgba(102,102,102,0.7);
+}
+.center_menu_left span {
+    margin: 0 5px;
+    
+}
+.center_menu_right {
+    display: flex;
+}
+.center_menu_right p {
+    font-size: 20px;
+    margin-right: 16px;
+    align-items: center;
+}
+.center_menu_right form {
+    width: 245px;
+    height: 50px;
+    /* margin: 5px 0; */
+}
+
+.center_menu_right select {
+    width: 220px;
+    height: 38px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    padding: 0px 10px;
+}
+/* center_main */
+/* center_main_left */
+.center_main_left {
+    width: 450px;
+    height: 1160px;
+    margin-left: 135px;
+}
+.left_danhmuc span {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.left_danhmuc ul {
+    box-sizing: border-box;
+    width: 291px;
+    height: 146px;
+    left: 38px;
+    top: 98px;
+    border: 1px solid #BCBBBB;
+    padding: 15px;
+    background-color: #fff;
+    list-style: none;
+}
+.left_danhmuc a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #1c1c1c;
+}
+.left_danhmuc ul>li>a {
+    display: inline-block;
+    border-bottom: 1px solid #BCBBBB;
+    padding: 15px 0;
+}
