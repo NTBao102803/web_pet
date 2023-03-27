@@ -1,0 +1,202 @@
+.container{
+    width: 1425px;
+    height: 9150px;
+    background-color: rgba(217, 217, 217, 0.19);
+}
+.container .container1 .anh1{
+    position: absolute;
+    width: 183px;
+    height: 55px;
+    left: 80px;
+    top: 30px;
+}
+.container .container1 .p1{
+    position: absolute;
+    left: 365px;
+    top: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #D9D9D9; 
+}
+.container .container1 .p2{
+    position: absolute;
+    left: 490px;
+    top: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #D9D9D9;
+}   
+.container .container1 .p3{
+    position: absolute;
+    left: 618px;
+    top: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #D9D9D9;
+}
+.container .container1 .p4{
+    position: absolute;
+    left: 740px;
+    top: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #D9D9D9;
+}
+.container .container1 .p5{
+    position: absolute;
+    left: 830px;
+    top: 20px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    
+    color: #D9D9D9;
+    
+}
+.container .container1 .p6{
+    position: absolute;
+    left: 950px;
+    top: 20px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    
+    color: #D9D9D9;
+    
+}
+.container .container1 .p7{
+    position: absolute;
+    left: 1050px;
+    top: 20px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    
+    color: #D9D9D9;
+}
+.container .container1 .anh2{
+
+    position: absolute;
+    left: 1190px;
+    top: 40px;
+
+}
+.container .container1 .anh3{
+
+    position: absolute;
+    left: 1230px;
+    top: 35px;
+
+}
+.container .container1 .anh4{
+
+    position: absolute;
+    left: 1285px;
+    top: 40px;
+
+}
+.container .p1{
+    position: absolute;
+    width: 414px;
+    height: 72px;
+    left: 100px;
+    top: 150px;
+    
+    font-family: ABeeZee;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 11px;
+    
+    color: #F5F5F5;
+    
+}
+.container .p2{
+    position: absolute;
+    width: 680px;
+    height: 120px;
+    left: 100px;
+    top: 170px;
+    
+    font-family: 'Inter';
+    font-size: 70px;
+    line-height: 109px;
+    
+    color: #F5F5F5;
+}
+.container .p3{
+    position: absolute;
+    left: 130px;
+    top: 335px;
+    
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 30px;
+    
+    color: #FCFCFC;
+}
+.container .p4{
+    position: absolute;
+    left: 130px;
+    top: 380px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    
+    color: #FCFCFC;
+}
+.container .p5{
+    position: absolute;
+    left: 130px;
+    top: 425px;
+    
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 30px;
+    
+    color: #FCFCFC;
+}
+.container .shopnow{
+    position: absolute;
+    width: 180px;
+    height: 70px;
+    left: 130px;
+    top: 520px;
+    
+    background: #4CA8A2;
+    border-radius: 11px;
+}
+.container .shopnow p{
+    position: absolute;
+    margin-top: 15px;
+    left: 25px;
+    font-family: 'Inter';
+    font-size: 25px;
+    line-height: 42px;
+    
+    color: #FFFFFF;
+    
+}
