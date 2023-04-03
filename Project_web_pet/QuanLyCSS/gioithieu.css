@@ -1,14 +1,19 @@
 body {
     margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 /* header */
 .header {
     width: 100%;
     height: 70px;
-    background-color: black;
+    background-color: #353535;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 .header .header_left {
     display: flex;
@@ -17,11 +22,12 @@ body {
 .header .header_left img {
     width: 150px;
     height: 50px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 .header_left_menu {
     width: 800px;
     height: 70px;
+    margin-left: 20px;
 }
 .header_left_menu ul {
     display: flex;
@@ -29,16 +35,23 @@ body {
     justify-content: space-between;
     list-style: none;
     margin: 0;
-    margin-top: 25px;
     padding-left: 30px;
-    font-size: 17px;
+    /* font-size: 17px; */
 }
 .header_left_menu a {
     text-decoration: none;
-    color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    color: #ffffff;
+    line-height: 70px;
+    width: 100px;
 }
+.header_left_menu ul li {
+    width: 100px;
+    text-align: center;
+}
+.header_left_menu ul li:hover {
+    background-color: #30b5b2;
+}
+
 .header_right {
     margin-right: 50px;
 }
@@ -54,7 +67,7 @@ body {
     text-align: center;
 }
 .center_title h1 {
-    margin-top: 70px;
+    margin-top: 100px;
     font-size: 40px;
     margin-bottom: 15px;
 }
@@ -138,6 +151,9 @@ body {
     text-decoration: none;
     color: #fff;
 }
+.footer_menu_left a:hover {
+    color: rgb(255, 242, 0);
+}
 .footer_menu_center {
     width: 42%;
     text-align: center;
@@ -190,8 +206,12 @@ body {
     font-size: 16px;
     padding-left: 5px;
 }
-.information .information_email p {
-    margin: 8px 0;
+.information p > a {
+    text-decoration: none;
+    color: #fff;
+}
+.information p > a:hover {
+    color: rgb(255, 242, 0);
 }
 /* end */
 .end {
