@@ -288,6 +288,18 @@ body{
 
     background: #D9D9D9;
 }
+.container .container3 .img1{
+    overflow: hidden;
+    height: 280px;
+    width: 280px;
+}
+.container .container3 .container3a img{
+    transition-duration: 0.5s;
+}
+.container .container3 .container3a img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 .container .container3 .container3a p{
     display: flex;
     align-items: center;
@@ -308,90 +320,25 @@ body{
     margin-top: -20px;
     color: rgba(0, 0, 0, 0.69);
 }
-.container .container3 .container3b{
-    width: 280px;
-    height: 385px;
 
-    background: #D9D9D9;
-}
-.container .container3 .container3b p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #867676;
-    margin-top: 5px;
-}
-.container .container3 .container3b h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -10px;
-}
-.container .container3 .container3b h2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -20px;
-    color: rgba(0, 0, 0, 0.69);
-}
-.container .container3 .container3c{
-    width: 280px;
-    height: 385px;
-
-    background: #D9D9D9;
-}
-.container .container3 .container3c p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #867676;
-    margin-top: 5px;
-}
-.container .container3 .container3c h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -10px;
-}
-.container .container3 .container3c h2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -20px;
-    color: rgba(0, 0, 0, 0.69);
-}
-.container .container3 .container3d{
-    width: 280px;
-    height: 385px;
-
-    background: #D9D9D9;
-}
-.container .container3 .container3d p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #867676;
-    margin-top: 5px;
-}
-.container .container3 .container3d h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -10px;
-}
-.container .container3 .container3d h2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -20px;
-    color: rgba(0, 0, 0, 0.69);
-}
 .container .container4{
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 30px;
     gap:30px;
+}
+.container .container4 .img1{
+    overflow: hidden;
+    height: 280px;
+    width: 280px;
+}
+.container .container4 .container4a img{
+    transition-duration: 0.5s;
+}
+.container .container4 .container4a img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .container .container4 .container4a{
     width: 280px;
@@ -419,84 +366,7 @@ body{
     margin-top: -20px;
     color: rgba(0, 0, 0, 0.69);
 }
-.container .container4 .container4b{
-    width: 280px;
-    height: 385px;
 
-    background: #D9D9D9;
-}
-.container .container4 .container4b p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #867676;
-    margin-top: 5px;
-}
-.container .container4 .container4b h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -10px;
-}
-.container .container4 .container4b h2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -20px;
-    color: rgba(0, 0, 0, 0.69);
-}
-.container .container4 .container4c{
-    width: 280px;
-    height: 385px;
-
-    background: #D9D9D9;
-}
-.container .container4 .container4c p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #867676;
-    margin-top: 5px;
-}
-.container .container4 .container4c h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -10px;
-}
-.container .container4 .container4c h2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -20px;
-    color: rgba(0, 0, 0, 0.69);
-}
-.container .container4 .container4d{
-    width: 280px;
-    height: 385px;
-
-    background: #D9D9D9;
-}
-.container .container4 .container4d p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #867676;
-    margin-top: 5px;
-}
-.container .container4 .container4d h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -10px;
-}
-.container .container4 .container4d h2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -20px;
-    color: rgba(0, 0, 0, 0.69);
-}
 .container .container5{
     width: 145px;
     height: 47px;
