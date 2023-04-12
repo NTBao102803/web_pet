@@ -59,8 +59,8 @@ body {
 }
 .header_right img {
     margin-left: 15px;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
 }
 /* center */
 .center {
@@ -275,6 +275,33 @@ body {
 }
 .cards_name a:hover {
     color: rgb(244, 82, 150);
+}
+/* giỏ hàng */
+.cards_shopping div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    background-color: #30b5b2;
+    border: 2px solid #30b5b2;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+.cards_shopping div span{
+    padding: 15px 10px;
+    background-color: transparent;
+    border: 2px solid #30b5b2;
+    color: #30b5b2;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    z-index: 1;
+}
+.cards_shopping div:hover{
+    opacity: 0.5;
 }
 /* footer */
 .footer {
