@@ -1,5 +1,6 @@
 body{
     margin:0px;
+    font-family: "Roboto", sans-serif;
 }
 
 .container{
@@ -286,7 +287,7 @@ body{
     width: 280px;
     height: 385px;
 
-    background: #D9D9D9;
+    background: #e6e4e4;
 }
 .container .container3 .img1{
     overflow: hidden;
@@ -306,19 +307,22 @@ body{
     justify-content: center;
     color: #867676;
     margin-top: 5px;
+    font-size: 15px;
 }
-.container .container3 .container3a h1{
+.container .container3 .container3a .p10{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -10px;
+    margin-top: 20px;
+    font-size: 22px;
+    color: #423d3d;
 }
-.container .container3 .container3a h2{
+.container .container3 .container3a .p20{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -20px;
-    color: rgba(0, 0, 0, 0.69);
+    margin-top: -12px;
+    color: black;
 }
 
 .container .container4{
@@ -344,7 +348,7 @@ body{
     width: 280px;
     height: 385px;
 
-    background: #D9D9D9;
+    background: #e6e4e4;
 }
 .container .container4 .container4a p{
     display: flex;
@@ -352,19 +356,22 @@ body{
     justify-content: center;
     color: #867676;
     margin-top: 5px;
+    font-size: 15px;
 }
-.container .container4 .container4a h1{
+.container .container4 .container4a .p10{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -10px;
+    margin-top: 20px;
+    font-size: 22px;
+    color: #423d3d;
 }
-.container .container4 .container4a h2{
+.container .container4 .container4a .p20{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -20px;
-    color: rgba(0, 0, 0, 0.69);
+    margin-top: -12px;
+    color: black;
 }
 
 .container .container5{
