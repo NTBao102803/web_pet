@@ -5,10 +5,12 @@ body{
 
 
 .containerhi{
+    z-index: 1;
     width: 100%;
     background-color: rgba(217, 217, 217, 0.19);
 }
 .containerhi .container1 a{
+    
     text-decoration: none;
 }
 .containerhi .container1 .anh1{

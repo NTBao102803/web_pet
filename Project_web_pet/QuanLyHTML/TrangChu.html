@@ -12,13 +12,110 @@
     <title>TrangChu</title>
     <link rel="stylesheet" href="/QuanLyCSS/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="/QuanLyCSS/Modal.css">
     <style>
+        .container-{
+            z-index: 0;
+        }
+        .carousel-indicators{
+            z-index: 1;
+        }
+        Modal
+        #wrapper {
+    min-height: 100vh;
+    }
+    #modal-container {
+        z-index: 3;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.25s ease-in-out;
+    }
+    #modal-container.show {
+        opacity: 1;
+        pointer-events: all;
+    }
+    #modal-container #btn-close {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    border: none;
+    outline: none;
+    background: none;
+    color: #5f5e5e;
+    font-size: 25px;
+    cursor: pointer;
+    }
+    .modal1 {
+        background: #fff;
+        max-width: 870px;
+        position: relative;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+        transition: all 0.25s ease-in-out;
+    }
+    #modal-container.show .modal1 {
+        top: 150px;
+    }
+    .modal-header1 h2 {
+        margin: 0;
+        padding: 40px 0 0 20px;
+    }
+    .modal-header1 form {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+    .modal-header1 form> label {
+        padding: 30px 0 10px 0;
+    }
+    .modal-header1 form input[type="password"],
+    .modal-header1 form input[type="text"] {
+        height: 40px;
+        border: 1px solid #ddd;
+        font-size: 20px;
+        color: #5f5e5e;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+        outline: none;
+    }
+    .modal-header1 .btn-dangnhap {
+        margin-top: 20px;
+        align-items: center;
+    }
+    .modal-header1 .btn-dangnhap button {
+        background-color: rgb(4, 196, 196);
+        margin-right: 10px;
+        width: 130px;
+        height: 40px;
+        border: none;
+        color: #fff;
+        font-size: 16px;
+        border-radius: 3px;
+    }
+    .modal-header1 .btn-dangnhap input {
+        margin: 0;
+        margin-right: 10px;
+        width: 15px;
+        height: 15px;
+    }
+    .modal-header1 form a {
+        text-decoration: none;
+        margin-top: 15px;
+        color: #232323;
+    }
+    .modal-header1 form a:hover {
+        color: rgb(244, 82, 150);
+    }
     </style>
 </head>
 <body>
     
-        
+    
     <div id="wrapper">
         <div class="container-">
 
@@ -45,15 +142,15 @@
               </div>
               
               <!-- Left and right controls -->
-              <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+              <a class="carousel-control-prev" href="#myCarousel" data-slide="prev" style="width: 100px;">
                 <span class="carousel-control-prev-icon"></span>
               </a>
-              <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+              <a class="carousel-control-next" href="#myCarousel" data-slide="next" style="width: 100px;">
                 <span class="carousel-control-next-icon"></span>
               </a>
             </div>
             
-            </div>
+            </div>  
         <div class="containerhi">
             <div class="container1">    
                 <!-- <img src="/anh/image 1.jpg" alt="" width="100%" > -->
@@ -467,8 +564,8 @@
         <!-- Modal -->
         <div id="modal-container">
             <button id="btn-close"><i class="fa-solid fa-xmark"></i></button>
-            <div class="modal" id="modal-demo">
-                <div class="modal-header">
+            <div class="modal1" id="modal-demo">
+                <div class="modal-header1">
                     <h2>ĐĂNG NHẬP</h2>
                     <form action="">
                         <label for=""><b>Tên tài khoản hoặc địa chỉ email *</b></label>
