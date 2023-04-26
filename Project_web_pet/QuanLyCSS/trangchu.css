@@ -231,7 +231,7 @@ body{
 .containerhi .container2 .container23{
     position: absolute;
     left: 140px;
-    margin-top: -30px;
+    margin-top: -15px;
 }
 .containerhi .container2 .container24{
     position: absolute;
@@ -242,7 +242,7 @@ body{
     position: absolute;
     margin-top: -10px;
     left: 470px;
-    margin-top: -30px;
+    margin-top: -15px;
 }
 .containerhi .container2 .container26{
     position: absolute;
@@ -251,7 +251,7 @@ body{
 }
 .containerhi .container2 .container27{
     position: absolute;
-    margin-top: -30px;
+    margin-top: -15px;
     left: 790px;
 }
 .containerhi .container2 .container28{
@@ -261,7 +261,7 @@ body{
 }
 .containerhi .container2 .container29{
     position: absolute;
-    margin-top: -30px;
+    margin-top: -15px;
     left: 1140px;
 }
 .containerhi .chocanh{
@@ -476,3 +476,4 @@ body{
     height: 140px;
     background-color: aliceblue;
 }
+ 
